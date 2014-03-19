@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
-   <channel>
-      <title>Phonedeck CSI</title>
-      <link>http://localhost:4000/sparkle.xml</link>
-      <description>Most recent changes with links to updates.</description>
-      <language>en</language>      
-         <item>
-            <title>Version 0.6</title>
-      			<!--<description>
-      				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed felis ac ante ultrices rhoncus. Etiam quis elit vel nibh placerat facilisis in id leo. Vestibulum nec tortor odio, nec malesuada libero. Cras vel convallis nunc. Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit pretium. Integer auctor sodales leo vel aliquam. Nullam nisi justo, molestie ut volutpat faucibus, convallis vitae dolor. Nam elementum, augue eu auctor imperdiet, ante arcu luctus turpis, quis vulputate est tortor non mauris. Fusce ut viverra ante. Mauris nec ullamcorper ante.
-      			</description>-->
-            <pubDate>Wed, 09 Jan 2006 19:20:11 +0000</pubDate>
-            <!--<sparkle:releaseNotesLink>http://andymatuschak.org/files/notes.html</sparkle:releaseNotesLink>-->
-            <enclosure url="https://phonedeck-storage.s3.amazonaws.com/csi-bluetooth-binaries/Phonedeck CSI v0.6.dmg" sparkle:version="0.6" sparkle:dsaSignature="MCwCFDUF31SugksoWDPxbDByx0mZ8hQ3AhR9qfo8hFrYjfYVBrtoFgE7osCpmA==" />
-         </item>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Phonedeck CSI</title>
+    <link>https://phonedeck.github.io/csi-docs/sparkle.xml</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+    <item>
+      <title>Version 0.6</title>
+      <pubDate>Wed, 19 Mar 2014 12:20:11 +0000</pubDate>
+      <enclosure url="https://phonedeck-storage.s3.amazonaws.com/csi-bluetooth-binaries/Phonedeck CSI v0.6.dmg" sparkle:version="0.6" sparkle:dsaSignature="MCwCFDUF31SugksoWDPxbDByx0mZ8hQ3AhR9qfo8hFrYjfYVBrtoFgE7osCpmA=="/>
+    </item>
+    <item>
+      <title>Version 0.7</title>
+      <pubDate>Wed, 19 Mar 2014 15:27:17 +0000</pubDate>
+      <enclosure url="https://phonedeck-storage.s3.amazonaws.com/csi-bluetooth-binaries/Phonedeck CSI v0.7.dmg" sparkle:version="0.7" sparkle:dsaSignature="MC0CFQCtClKMMJNOMq/A/5AxHO80hevBCQIUCqqH8QifRLitYuydJazt7HRMZBg="/>
+    </item>         
    </channel>
 </rss>
